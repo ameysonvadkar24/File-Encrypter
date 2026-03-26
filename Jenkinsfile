@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR-USERNAME/File-Encrypter.git'
+                git branch: 'main', url: 'https://github.com/ameysonvadkar24/File-Encrypter.git'
             }
         }
 
